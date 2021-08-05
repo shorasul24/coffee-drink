@@ -1,0 +1,108 @@
+/* section choose */
+.choose {
+   margin-bottom: 400px;
+}
+
+.choose .container {
+   height: 577px;
+   padding-top: 100px;
+   background: #2C343E;
+   border-radius: 10px;
+}
+
+.choose__heading {
+   margin-top: 0;
+   margin-bottom: 32px;
+   font-family: 'Fraunces';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 48px;
+   text-align: center;
+   color: #FEFCF7;
+}
+
+.choose__paragraph {
+   width: 540px;
+   margin-top: 0;
+   margin-bottom: 86px;
+   margin-left: 370px;
+   font-family: 'Barlow';
+   font-size: 16px;
+   line-height: 26px;
+   text-align: center;
+   color: #FEFCF7;
+   opacity: 0.8;
+}
+
+
+.choose__list {
+   margin: 0 auto;
+   padding: 0 85px;
+   display: flex;
+
+}
+
+.choose__item {
+   width: 350px;
+   padding: 72px 48px 48px 48px;
+   background: #0E8784;
+   border-radius: 8px;
+}
+
+.choose__item--left+.choose__item--left {
+   margin-left: 30px;
+}
+
+.choose__item:nth-child(1)::before {
+   width: 72px;
+   height: 72px;
+   margin: 0 auto;
+   margin-bottom: 56px;
+   display: block;
+   background-image: url("../img/coffee-bean.png");
+   background-repeat: no-repeat;
+   content: "";
+}
+
+.choose__item:nth-child(2)::before {
+   width: 72px;
+   height: 72px;
+   margin: 0 auto;
+   margin-bottom: 56px;
+   display: block;
+   background-image: url("../img/combined-shape.png");
+   background-repeat: no-repeat;
+   content: "";
+}
+
+.choose__item:nth-child(3)::before {
+   width: 72px;
+   height: 72px;
+   margin: 0 auto;
+   margin-bottom: 56px;
+   display: block;
+   background-image: url("../img/dastavca.png");
+   background-repeat: no-repeat;
+   content: "";
+}
+
+.item__heading {
+   margin-top: 0;
+   margin-bottom: 24px;
+   font-family: 'Fraunces';
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 32px;
+   text-align: center;
+   color: #FEFCF7;
+}
+
+.item__paragraph {
+   margin-top: 0;
+   font-family: 'Barlow';
+   font-size: 16px;
+   line-height: 26px;
+   text-align: center;
+   color: #FEFCF7;
+}
