@@ -65,6 +65,17 @@
    content: "";
 }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min--moz-device-pixel-ratio: 2),
+	only screen and (-o-min-device-pixel-ratio: 2/1),
+	only screen and (min-device-pixel-ratio: 2),
+	only screen and (min-resolution: 192dpi),
+	only screen and (min-resolution: 2dppx) {
+   .choose__item:nth-child(1)::before {
+		background-image: url('../img/coffee-bean@2x.png');
+	}
+}
+
 .choose__item:nth-child(2)::before {
    width: 72px;
    height: 72px;
@@ -76,6 +87,17 @@
    content: "";
 }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min--moz-device-pixel-ratio: 2),
+	only screen and (-o-min-device-pixel-ratio: 2/1),
+	only screen and (min-device-pixel-ratio: 2),
+	only screen and (min-resolution: 192dpi),
+	only screen and (min-resolution: 2dppx) {
+   .choose__item:nth-child(2)::before {
+		background-image: url('../img/combined-shape2x.png');
+	}
+}
+
 .choose__item:nth-child(3)::before {
    width: 72px;
    height: 72px;
@@ -85,6 +107,17 @@
    background-image: url("../img/dastavca.png");
    background-repeat: no-repeat;
    content: "";
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min--moz-device-pixel-ratio: 2),
+	only screen and (-o-min-device-pixel-ratio: 2/1),
+	only screen and (min-device-pixel-ratio: 2),
+	only screen and (min-resolution: 192dpi),
+	only screen and (min-resolution: 2dppx) {
+   .choose__item:nth-child(3)::before {
+		background-image: url('../img/dastavca2x.png');
+	}
 }
 
 .item__heading {
